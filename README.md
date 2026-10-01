@@ -1,4 +1,4 @@
-# Jason Moore — Applied AI Systems Portfolio
+# Sparkitecture001 — Applied AI Systems Scaffolds
 
 I design and evaluate AI systems, with emphasis on multi-agent orchestration,
 model behavior, AI safety and reliability, evidence-grounded verification,
@@ -36,3 +36,16 @@ operator control, and justified stopping.
 
 Read [the professional profile](PROFESSIONAL-PROFILE.md) and the case studies in
 [`case-studies/`](case-studies/).
+
+## Convert the scaffolds to another system
+
+[Portable AI Scaffold Conversion Guide](CONVERSION-GUIDE.md) defines the shared
+human/AI method for translating these systems to another OS, runtime, model,
+container engine, or deployment layout without losing their observable
+behavior, evidence boundaries, or authority controls.
+
+Validate this repository's machine-readable contract with:
+
+```text
+python validate_portability.py .
+```

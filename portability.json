@@ -1,0 +1,19 @@
+{
+  "protocol": "PortableScaffold/1",
+  "project": "Sparkitecture001",
+  "entrypoints": ["README.md", "CONVERSION-GUIDE.md", "PROFESSIONAL-PROFILE.md"],
+  "minimum_runtime": {"python": "3.10 for manifest validation only"},
+  "configuration": ["target conversion packet"],
+  "state": ["documentation and machine-readable contracts only"],
+  "adapters": ["human-or-ai-converter", "target-runtime", "verification-matrix", "conversion-receipt"],
+  "invariants": [
+    "translate contracts before code",
+    "preserve observable behavior evidence and authority boundaries",
+    "separate target observations from assumptions",
+    "portability requires target-side verification",
+    "skipped checks remain unresolved"
+  ],
+  "verification_commands": ["python validate_portability.py ."],
+  "known_platform_variance": ["target operating system", "runtime", "model", "container engine", "filesystem", "resource controls"],
+  "authority_boundary": "Conversion guidance grants no credentials, publication authority, or consequential-action authority."
+}
